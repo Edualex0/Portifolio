@@ -1,5 +1,6 @@
 const botaoSobre = document.getElementById('sobre-btn');
 const conteudo = document.getElementById('conteudo');
+const botaoContato = document.getElementById('contato-btn');
 
 let textoVisivel = false;
 
@@ -19,4 +20,8 @@ botaoSobre.addEventListener('click', () => {
         conteudo.classList.add('conteudo-escondido');
         textoVisivel = false;
     }
+});
+
+botaoContato.addEventListener('click', () => {
+    window.open('https://github.com/Edualex0', '_blank');
 });
