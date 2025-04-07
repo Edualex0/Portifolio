@@ -1,5 +1,3 @@
-/* style.css */
-
 header {
     position: relative; 
     padding: 10px;
@@ -11,8 +9,8 @@ header img {
     position: absolute; 
     top: 10px; 
     left: 10px; 
-    width: 250px;
-    height: 250px;
+    width: 110px;
+    height: 110px;
     object-fit: cover;
     border-radius: 45%;
     border: 4px solid #000000;
@@ -52,4 +50,18 @@ nav a {
 nav a:hover {
     color: #000;
     background-color: #ffffff; 
+}
+
+#conteudo {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #3a2f43;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.conteudo-escondido {
+    display: none;
 }
